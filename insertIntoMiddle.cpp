@@ -75,7 +75,6 @@ public:
 }
 };
 
-
 int main() {
     FineGrainedQueue queue;
    
@@ -105,8 +104,5 @@ int main() {
     queue.printList();
     queue.insertIntoMiddle(66, 100);
     queue.printList();
-
-
-
     return 0;
 }
